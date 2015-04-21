@@ -1,0 +1,118 @@
+.container {
+  margin: 0 auto;
+  max-width: 457px;
+  width: 100%;
+}
+
+.gameboard{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.gameboard:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+
+.rows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+.one, .two, .three {
+  float: left;
+  width: 33.3333%;
+  box-sizing:border-box;
+}
+.one:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+
+.two:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+
+.three:before {
+    content:"";
+    display: block;
+    padding-top: 100%;
+}
+
+.two {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.mid {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.x {
+    background-image: url("../images/sharpX.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.o {
+    background-image: url("../images/sharpO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prompt {
+  display: none;
+  color: #545454;
+  letter-spacing: .20em;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+header h1 {
+  color: #545454;
+  text-align: center;
+  font-family: 'Special Elite', sans-serif;
+  letter-spacing: .20em;
+}
+
+button{
+  margin-top: 10%;
+  padding: 2%;
+  font-family: 'Special Elite', sans-serif;
+  letter-spacing: .20em;
+  color: #ff3232;
+  background-color: #545454;
+  border-radius: 15%;
+  position: relative;
+  z-index: 3;
+}
+
+.end {
+  position: absolute;
+  margin: 0 auto;
+  display: none;
+  color: #ff3232;
+  left: 25%;
+  top: 20%;
+  z-index: 999;
+}
+
