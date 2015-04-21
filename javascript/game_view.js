@@ -16,7 +16,7 @@ View.prototype = {
   },
 
   showEndMessage: function(message) {
-    $(".end").fadeIn(1000);
-    $(".end h1").text(message);
+    $(".end").fadeIn();
+    $(".end").text(message);
   }
 }

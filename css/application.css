@@ -80,7 +80,7 @@
   letter-spacing: .20em;
   font-family: sans-serif;
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 h1 {
@@ -107,12 +107,11 @@ button{
 }
 
 .end {
-  position: absolute;
-  margin: 0 auto;
   display: none;
   color: #ff3232;
-  left: 25%;
-  top: 20%;
-  z-index: 999;
+  letter-spacing: .20em;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
